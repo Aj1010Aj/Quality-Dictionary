@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <link href="h3style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <form >
-       <label>Full Name</label> 
-       <input type="text">
+  <div class="outerbox">
+     <form >
+      <p class="Welcome">*Welcome to ULearn*</p><br>
+       <label >Full Name</label>
+       <input type="text" pattern="[A-Za-z]+" required>
        <br>
        <br>
        <label>Age</label>
-       <input type="number">
+       <input type="number" required>
        <br>
        <br>
        <label>Email</label>
-       <input type="email">
+       <input type="email" pattern="[A-Za-z]" required>
        <br>
        <Br>
-       <label>Gender</label>
-       <br>
-    
-       <input type="radio">
-       <label>Male</label>
-       <input type="radio">
-       <label>Female</label>
-       <br>
+       <label>Gender
+       <input type="radio" name="gender" value="male"> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="Female">Female
+      </label>
+       <br><br>
        <label>Working Industry</label>
        
        <select>
@@ -35,7 +37,7 @@
         <option>Software</option>
         <option>Construction</option>
         <option>Rigs</option>
-      </select>
+      </select><br><br>
       <label>Experience</label>
       <input type="number">
       <br><br>
@@ -46,20 +48,10 @@
         <option>Mid-level</option>
         <option>Advanced</option>
       </select>
-      <br><br>
-      <label>Topics to master</label>
-      <br>
-      <label>Basic level Q Terms&concept</label>
-      <input type="checkbox">
-      <label>Standard level Q Terms&concept</label>
-      <input type="checkbox">
-      <label>Advanced level Q Terms&Concept</label>
-      <input type="checkbox">
-     
-      <br><Br>
-      <input type="submit">
-      
+      <br><br><br>
+      <button>Create Account</button>
       <br>
     </form>
+    </div>
 </body>
 </html>

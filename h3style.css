@@ -1,0 +1,52 @@
+
+h3
+    {
+        color: darkgreen;
+        font-size: 25px
+    }
+
+h4
+{
+   color: darkblue;
+   font-size: 17px
+}
+.highlight
+{
+    color:yellow;
+        font-size: 25px
+}
+.outerbox{
+    width: 500px;
+    height:700px;
+    background: rgb(8, 35, 133);
+    margin-left:2px;
+    padding-left: 5px;
+    border:2px solid;
+    border-color:coral ;
+}
+.innerbox
+{
+    width: 200px;
+    height: 200px;
+    padding-left: 5px;
+    border: 5px solid;
+    border-color: greenyellow;
+}
+.white
+{
+    color: white;
+}
+button
+  {
+    color: white;
+    background-color: green;
+  }
+  label{
+    color: white;
+  }
+  .Welcome
+  {
+    color: white;
+    font-size: 50px ;
+  }
+ 
