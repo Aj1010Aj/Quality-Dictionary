@@ -249,7 +249,7 @@ background: rgb(200, 194, 194);
   .basic-container
   {
     width: 100%;
-    height: 2500px;
+    height: 2600px;
     background-color: #eae4e4;
   }
   .basic-header
@@ -274,6 +274,7 @@ background: rgb(200, 194, 194);
     height: 500px;
     border:none;
     float:left;
+    margin-right: 2px;
   }
   .basic-body2
   {
@@ -328,6 +329,12 @@ background: rgb(200, 194, 194);
     width: 100%;
     height: 100%;
   }
+  .PDCAimage
+{
+  width: 90%;
+  height: 200px;
+  margin-left: 10px;
+}
 /*Midlevel page */
  .midcontainer
  {
@@ -344,5 +351,54 @@ background: rgb(200, 194, 194);
   background-color: maroon;
   padding-top: 10px;
 }
- 
+.midlevelh3
+{
+  color: darkblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.midbody1
+{
+  width: 100%;
+  background-color: beige;
+  height: 450px;
+}
+.midbody2
+{
+  width: 100%;
+  background-color: #eae4e4;
+  height: 550px;
+}
+.midfooter
+{
+  width: 100%;
+  height: 50px;
+  background-color: maroon;
+  color: white;
+  padding-left: 500px;
+  padding-top:2px;
+}
+ .basicfooter
+ {
+  width: 100%;
+  height: 50px;
+  background-color: maroon;
+  float:left;
+  color: white;
+  padding-left: 500px;
+ }
+ /*Advanced page formatting*/
+.advcontainer
+{
+  width: 100%;
+  height: 6500px;
+  /*border: blueviolet solid;*/
 
+} 
+.advheader
+{
+  width: 100%;
+  height: 80px;
+  color:white;
+  background-color: maroon;
+}
